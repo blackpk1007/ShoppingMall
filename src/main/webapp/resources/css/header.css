@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+#hedader-wrap{
+    width: 100vw;
+}
+.state-loginOff {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 12px 10px 20px 0;
+    font-size: 12px;
+    background-color: rgba(122, 142, 172, 0.2);
+
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-right: 8px;
+}
+.header-btn > input{
+    height: 28px;
+}
+.search-input {
+    width: 170px;
+    padding: 0px 4px;
+}
+.search-btn{
+    padding: 0px 12px;
+    background-color: #778da9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.topbtn{
+    font-size: 14px;
+   padding: 0px 6px;
+    text-align: center;
+}
+.mainLogo{
+    padding: 40px 0 20px 0;
+    text-align: center;
+    font-size: 42px;
+    background-color: rgba(122, 142, 172, 0.2);
+}
+.mainLogo > a{
+    color: #586a8d;
+}
+
+
+/* 내비게이션 바 */
+.nav-wrap {
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    margin-bottom: 50px;
+    position: sticky;
+    background-color: rgb(230, 234, 240);
+    top: 0px;
+}
+.nav-cate {
+    padding: 30px 35px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(114, 114, 114);
+}
+.nav-cate:hover{
+    font-weight: 600;
+    color: black;
+    /* transition-duration: 0.5s; */
+}
+
+
+/* FOOTER */
+.footer-hr{
+    margin-top: 100px;
+    border: 1px rgb(243, 241, 241) solid;
+}
+#footer-wrap {
+    width: 80vw;
+    padding: 50px 30px 60px 0;
+    font-size: 13px;
+    color: rgb(219, 217, 217);
+}
+footer > span{
+    color: rgb(158, 154, 154);
+    margin-bottom: 50px;
+}
+h1 {
+    display: block;
+    font-size: 0em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+    
+    

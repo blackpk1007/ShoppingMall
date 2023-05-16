@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#content-wrap{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#main-title{
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bNo, .bTitle, .bDate, .bSub, .bSum{
+    border: 1px solid lightgray;
+    border-style: solid none;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.bNo.unit, .bTitle.unit, .bDate.unit, .bSum.unit{
+    padding: 11px 0;
+    font-weight: 500;
+}
+.bNo, .bNo.unit{
+    width: 6vw;
+}
+.bDate, .bDate.unit{
+    width: 10vw;
+}
+.bTitle{
+    width: 50vw;
+}
+.bTitle.unit{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.bSum, .bSub{
+    width: 8vw;
+}
+.bSub.unit{
+    width: 8vw;
+    padding: 8.5px 0;
+}
+.bSub.unit > input{
+    padding: 2px 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+p{
+    padding: 50px 0;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="spmcart">
+  
+  <select id="cartselect" parameterType="CartDto" resultType="CartDto">
+  	select * from
+  	spmcart where cartID = #{userID}
+  </select>
+  
+  <select id="wishselect" parameterType="WishDto" resultType="WishDto">
+  	select * from
+  	spmwishlist where wishID = #{userID}
+  </select>
+  
+  <select id="orderlistselect" parameterType="OrderlistDto" resultType="OrderlistDto">
+  	select sum(orderlistPriceSum) as orderlistPriceSum, orderlistNumber, orderlistDate, group_concat(orderlistName) as orderlistName 
+  	from spmorderlist group by orderlistNumber, orderlistID, orderlistDate having orderlistID = #{orderlistID};
+  </select>
+  
+  <select id="orderlistselectdetail" parameterType="OrderlistDto" resultType="OrderlistDto">
+  	select * from 
+  	spmorderlist where orderlistID = #{orderlistID} and orderlistNumber = #{orderlistNumber};
+  </select>
+  
+    <select id="orderlistselectdetailOne" parameterType="OrderlistDto" resultType="OrderlistDto">
+  	select distinct(orderlistNumber) as orderlistNumber, orderlistID, orderlistDate 
+  	from spmorderlist where orderlistID = #{orderlistID} and orderlistNumber = #{orderlistNumber};
+  </select>
+  
+  <select id="orderlistselectOne" parameterType="OrderlistDto" resultType="OrderlistDto">
+  	select sum(orderlistPriceSum) as sum, orderlistNumber, orderlistDate 
+  	from spmorderlist group by orderlistNumber, orderlistID, orderlistDate having orderlistID = #{orderlistID} and orderlistNumber = #{orderlistNumber};	
+  </select>
+
+  
+  <insert id="orderlisttest" parameterType="OrderlistDto">
+  	insert into
+  	spmorderlist values(#{orderlistNumber}, #{orderlistID}, #{orderlistName}, #{orderlistColor}, #{orderlistSize}, #{orderlistCount}, #{orderlistPrice}, #{orderlistPriceSum}, #{orderlistDate}, #{orderlistState})
+  </insert>
+  
+    <delete id="cartdelete" >
+      DELETE FROM spmcart
+      WHERE cartNumber = #{cartNumbers}
+   </delete>
+  </mapper>

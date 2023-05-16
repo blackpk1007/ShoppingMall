@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <configuration>
+  	<typeAliases>
+  		<typeAlias type="com.shopping.mall.Dto.UserDto" alias="UserDto"/>
+  		<typeAlias type="com.shopping.mall.Dto.OrderlistDto" alias="ProductDto"/>
+  		<typeAlias type="com.shopping.mall.Dto.CartDto" alias="CartDto"/>
+  		<typeAlias type="com.shopping.mall.Dto.WishDto" alias="WishDto"/>
+  		<typeAlias type="com.shopping.mall.Dto.QnaDto" alias="QnaDto"/>
+  		<typeAlias type="com.shopping.mall.Dto.OrderlistDto" alias="OrderlistDto"/>
+  	</typeAliases>
+  	
+  	<mappers>
+  		<mapper resource="/mybatis/Usermapper.xml" />
+  		<mapper resource="/mybatis/Cartmapper.xml" />
+  		<mapper resource="/mybatis/Mypagemapper.xml" />
+  		<mapper resource="/mybatis/Productmapper.xml" />
+  	</mappers>
+  </configuration>
+  
+  

@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+.mypageupdate-header{
+    width: 100%;
+    height: 100px;
+
+}
+h2{
+    text-align: center;
+}
+
+.mypageupdate-text{
+    width: 40%;
+    height: 23px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+}
+.text-left{
+    float: left;
+    font-size: 13px;
+}
+
+.text-right{
+    float: right;
+    color: rgb(255, 70, 70);
+    font-size: 13px;
+}
+
+.mypageupdate-id{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-id-div{
+    width: 20%;
+}
+#mypageupdate-id-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-idinput-div{
+    width: 80%;
+}
+#mypageupdate-id-input{
+	background-color: gray;
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#mypageupdate-id-content{
+    float: left;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+
+.mypageupdate-pw{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-pw-div{
+    width: 20%;
+
+}
+#mypageupdate-pw-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-pwinput-div{
+    width: 80%;
+}
+#mypageupdate-pw-input{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#mypageupdate-pw-content{
+    float: left;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.mypageupdate-pwck{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-pwck-div{
+    width: 20%;
+}
+#mypageupdate-pwck-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-pwckinput-div{
+    width: 80%;
+}
+#mypageupdate-pwck-input{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#mypageupdate-pwck-content{
+    float: left;
+    font-size: 11px;
+}
+
+.mypageupdate-name{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-name-div{
+    width: 20%;
+}
+#mypageupdate-name-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-nameinput-div{
+    width: 80%;
+}
+#mypageupdate-name-input{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.mypageupdate-phone{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-phone-div{
+    width: 20%;
+}
+#mypageupdate-phone-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-phoneinput-div{
+    width: 80%;
+}
+#mypageupdate-phone-input{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.mypageupdate-email{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-email-div{
+    width: 20%;
+}
+#mypageupdate-email-label{
+    font-size: 13px;
+    float: left;
+}
+
+#mypageupdate-emailinput-div{
+    width: 80%;
+}
+#mypageupdate-email-input{
+    float: left;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.mypageupdate-addr{
+    width: 40%;
+    height: 100px;
+    margin-left: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+}
+#myapgeupdate-addr-div{
+    width: 20%;
+}
+#myapgeupdate-addrinput-div{
+    width: 80%;
+}
+#mypageupdate-addr-label{
+    font-size: 13px;
+    float: left;
+}
+#mypageupdate-addr-bt{
+    
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 1px;
+}
+#mypageupdate-addr-number{
+    font-size: 13px;
+    width: 20%;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+#mypageupdate-addr-first{
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#mypageupdate-addr-last{
+    width: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#mypageupdate-addrfirst-content{
+    float: left;
+    margin-top: 7px;
+    font-size: 11px;
+}
+#mypageupdate-addrlast-content{
+    float: left;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.mypageupdate-bt{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    column-gap: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#mypageupdate-updatebt{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#mypageupdate-updatecl{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

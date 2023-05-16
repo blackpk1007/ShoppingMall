@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body{
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', serif;
+    line-height: 1.6
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+.table{
+    display: table-row;
+    border-style: solid;
+    text-align:center;
+}
+.number{
+    display:table-cell; 
+    border:1px solid black;
+    width:100px;
+    height:35px;
+}
+.id{
+    display:table-cell;
+    border:1px solid black;
+    width:70px
+
+}
+.pw{
+    display:table-cell;
+    border:1px solid black;
+    width:70px;
+    
+}
+.name{
+    display:table-cell;
+    border:1px solid black;
+    width:100px;
+}
+.phone{
+    display:table-cell;
+    border:1px solid black;
+    width:200px;
+}
+.addr{
+    display:table-cell;
+    border:1px solid black;
+    width: 400px;
+}
+.email{
+    display:table-cell;
+    border:1px solid black;
+    width:300px;
+}
+#th{
+    background-color: black;
+    color:white;
+    height:40px;
+    border:1px solid gray;
+}
+
+#footer{
+    clear:both;
+}
+.containerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top:10px;
+}
+
+
+
+#header{
+    height:100px;
+}
+#logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+#button{
+    position: relative;
+    left:510px;
+    margin-top: 10px;
+}
+#brand{
+    color:black;
+    text-decoration-line: none;
+    color:inherit;
+}
+#id{
+    color:black;

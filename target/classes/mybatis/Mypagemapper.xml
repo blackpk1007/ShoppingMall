@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="spmmypage">
+	
+	<select id="qnaselectOne" parameterType="int" resultType="QnaDto">
+		select * 
+		from spmqna
+		where qnanum = #{qnanum}
+	</select>
+	
+	<select id="qnaselectList" resultType="QnaDto">
+		select *
+		from spmqna
+	</select>
+	
+	<insert id="qnainsert" parameterType="QnaDto">
+		insert into spmqna
+		values(null, #{qnawriterid}, #{qnacategory}, #{qnatitle}, now(), #{qnacontent})
+	</insert>
+	
+	<update id="qnaupdate" parameterType="QnaDto">
+		update spmqna
+		set qnatitle=#{qnatitle}, qnacontent=#{qnacontent}, qnacategory=#{qnacategory}
+		where qnanum = #{qnanum}
+	</update>
+	
+	<select id="qnasearchList" resultType="QnaDto">
+		select *
+		from spmqna
+		where (qnatitle like concat('%',#{keyword},'%') or qnacontent like concat('%',#{keyword},'%'))
+	</select>
+	
+	<select id="qnaselectcategory" resultType="QnaDto">
+		select *
+		from spmqna
+		where qnacategory = #{qnacategory}
+	</select>
+	
+</mapper>

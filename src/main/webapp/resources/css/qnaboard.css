@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+#content-wrap{
+    margin: 50px auto;
+    padding: 0 40px;
+    width: 75vw;
+}
+#main-title{
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+hr{
+    border: 1px solid lightgray;
+}
+form div{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+form div label{
+    font-size: 16px;
+}
+form2 div{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+form2 div label{
+    font-size: 16px;
+}
+.input-wrap{
+    margin-bottom: 5px;
+}
+input{
+    font-size: 14px;  
+}
+.input-tit{
+    width: 250px;
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.select-cate{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.select-cate.main{
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+select{
+    width: 140px;
+    margin-top: 5px;
+    padding: 7px 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 14px;
+}
+#content{
+    margin: 15px auto 20px auto;
+    width: 100%;
+}
+.btn-wrap{
+    display: flex;
+    justify-content:space-between;
+}
+.btn-two{
+    column-gap: 8px;
+}
+.btn{
+    padding: 9px 34px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+}
+.btn.black{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.select-cate .btn{
+    padding: 6px 15px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.form2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bNo, .bCate, .bTitle, .bDate{
+    border: 1px solid lightgray;
+    border-style: solid none;
+    padding: 12px 0;
+    font-weight: 600;
+}
+.bNo.unit, .bCate.unit, .bTitle.unit, .bDate.unit{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.bNo, .bNo.unit{
+    width: 8vw;
+}
+.bCate{
+    width: 12vw;
+}
+.bTitle{
+    width: 70vw;
+}
+.bTitle.unit{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.bDate, .bDate.unit{
+    width: 10vw;
+}
+p{
+    padding: 50px 0;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 40px;
+}

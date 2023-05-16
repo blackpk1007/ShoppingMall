@@ -1,0 +1,118 @@
+html{
+  overflow-x: hidden;
+}
+div{
+  display:block;
+}
+#header{
+  width:100vw;
+  height: 15vh; 
+  border-bottom: 1px solid black;
+}
+#wrapper{
+  position:relative;
+  width:1460px;
+  margin:0 auto;
+}
+#body{
+  position:relative;
+  width:1200px;
+  margin-right:200px;
+  left:150px;
+}
+.addr{
+  width: 400px;
+  height: 40px; 
+}
+.basket{
+  margin-left:100px;
+  text-align:center;
+  vertical-align:center;
+}
+.basket dt{
+  float:left;
+  display:block;
+  width:140px;
+}
+.basket dd{
+  float:left;
+  width:140px;
+}
+.basket_detail{
+  position:relative;
+  margin-left:140px;
+  height:160px;
+}
+.basket_detail{
+  text-align:center;
+  position:relative;
+  right:20px;
+}
+.basket_detail dt{
+  margin-inline-start: 0px;
+  float:left;
+  display:block;
+  width:120px;
+  position:relative;
+}
+.basket_detail dd{
+  margin: 60px 0px;
+  float:left;
+  margin-left:40px;
+  width:140px;
+}
+.basket_detail img{
+  width:120px;
+  display:block;
+  position:relative;
+  right:20px;
+}
+.total_price{
+  position:relative;
+  left:500px;
+}
+.address{
+  position:relative;
+  left:240px;
+}
+.address h3{
+border-top:1px solid black; padding-top:20px; 
+width:700px;
+}
+.send_to dt,dd{
+  float:left;
+}
+.send_to dt{
+  width:140px;
+}
+.payment{
+  display:block;
+  border-top:30px;
+  position:relative;
+}
+.payment h3{
+  right:80px;
+   width:870px;
+  position:relative;
+  text-align:center;
+ 
+}
+.payment_btns a{
+  text-decoration:none;
+ 
+    position:relative;
+  right:80px;
+  top: 10px;
+  padding: 15px 70px;
+  border: 1px solid black;
+  background-color:black;
+  color:white;
+}
+.pay{
+  width:120px;
+  height:40px;
+  margin:0 auto;
+  position:relative;
+  top:30px;
+  left:280px;
+}

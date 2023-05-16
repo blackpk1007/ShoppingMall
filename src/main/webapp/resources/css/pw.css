@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+#main-title{
+    padding: 30px 0 50px 0;
+    text-align: center;
+    font-size: 28px;
+}
+.find-input{
+    width: 300px;
+    padding: 3px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#pwButton{
+    width:100%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 3px;
+    background-color: #586a8d;
+    color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}

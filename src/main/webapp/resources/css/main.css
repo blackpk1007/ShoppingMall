@@ -1,0 +1,212 @@
+   @charset "UTF-8";
+   
+   p{
+    padding: 50px 0;
+    text-align: center;
+}
+   html{
+       scroll-behavior: smooth;
+       text-decoration: none;
+   }
+   #header{
+       height: 15vh;
+   }
+   #menu{
+   margin:auto;
+   position:relative;
+   }
+   #menu1{
+   margin:auto;
+   position:relative;
+   height:505px;
+   }
+   #menu2{
+   margin:auto;
+   position:relative;
+   height:505px;
+   }
+   #banner{
+   position:absolute;
+   left:50%;
+   transform:translateX(-50%);
+   }
+   #banner2{
+   position:absolute;
+   left:50%;
+   transform:translateX(-50%);
+   }
+   #main {
+       position: relative;
+       width:1070px;
+       margin: 0 auto;
+       top:30px;
+       padding-bottom:40px;
+   }
+   
+   #mgallery_center{
+       width: 400px;
+       height: 500px;
+   
+   }
+   #gallery_left{
+       width:300px;
+       position: relative;
+       bottom: 60px;
+   }
+   #gallery_right{
+       width:300px;
+       position: relative;
+       bottom: 60px;
+   }
+   #main a{
+       text-decoration: none;
+       position: relative;
+       bottom: 250px;
+       color: black;
+   }
+   #banner{
+   margin:0 auto;
+       width: 1480px;
+       float: left;
+       top:30px;
+   }
+   #banner2{
+       width: 1480px;
+       float: left;
+       background-color: white;
+   }
+   .banner {
+       width: 370px;
+       height: 450px;
+       float: left;
+   }
+   .banner img{
+       width: 340px;
+       margin-left: 20px;
+   }
+   .banner>div{
+       width: 340px;
+       height: 50px;
+       opacity: 0.7;
+       bottom:100px;
+       position: relative;
+       text-align:center;
+       background-color: rgb(185, 185, 185);
+       left: 20px;
+   }
+   .banner2 {
+       width: 370px;
+       height: 450px;
+       float: left;
+   }
+   .banner2 img{
+       width: 340px;
+       height: 450px;
+       margin-left: 20px;
+   }
+   .banner2>div{
+       width: 340px;
+       height: 50px;
+       opacity: 0.7;
+       position: relative;
+       bottom: 50px;
+       text-align:center;
+       background-color:  rgb(185, 185, 185);
+       left: 20px;
+   }
+   *{
+       margin: 0;
+       padding: 0;
+       text-decoration: none;
+   }
+   /* Header */
+   #hedader-wrap{
+       width: 100vw;
+   }
+   .state-loginOff {
+       display: flex;
+       align-items: center;
+       justify-content: right;
+       padding: 12px 10px 20px 0;
+       font-size: 12px;
+       background-color: rgb(230, 234, 240);
+   }
+   .state-loginOff > a{
+       color: rgb(114, 114, 114);
+       text-decoration: none;
+   }
+   .header-btn{
+       display: flex;
+       align-items: center;
+       column-gap: 5px;
+       margin-right: 8px;
+   }
+   .header-btn > input{
+       height: 28px;
+   }
+   .search-input {
+       width: 170px;
+       padding: 0px 4px;
+   }
+   .search-btn{
+       padding: 0px 12px;
+       background-color: #778da9;
+       color: white;
+       border: none;
+       border-radius: 3px;
+   }
+   .topbtn{
+       font-size: 14px;
+      padding: 0px 6px;
+       text-align: center;
+   }
+   .mainLogo{
+       padding: 40px 0 20px 0;
+       text-align: center;
+       background-color: rgb(230, 234, 240);
+   }
+   .mainLogo > a{
+       color: #586a8d;
+       font-size: 42px;
+   }
+   
+   
+   /* 내비게이션 바 */
+   .nav-wrap {
+       display: flex;
+       align-content: center;
+       justify-content:center;
+       margin-bottom: 50px;
+       position: sticky;
+       background-color: rgb(230, 234, 240);
+       top: 0px;
+   }
+   .nav-cate {
+       padding: 30px 35px;
+       text-align: center;
+       font-size: 18px;
+       color: rgb(114, 114, 114);
+   }
+   .nav-cate:hover{
+       font-weight: 600;
+       color: black;
+       /* transition-duration: 0.5s; */
+   }
+   
+   
+   /* FOOTER */
+   .footer-hr{
+       width: 100vw;
+       margin-top: 100px;
+       border: 1px rgb(243, 241, 241) solid;
+   }
+   #footer-wrap {
+       width: 80vw;
+       padding: 50px 30px 60px 0;
+       font-size: 13px;
+       color: rgb(219, 217, 217);
+   }
+   footer > span{
+       color: rgb(158, 154, 154);
+       margin-bottom: 50px;
+   }

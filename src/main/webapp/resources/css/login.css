@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.login{        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+#main-title{
+    padding: 30px auto 50px auto;
+    text-align: center;
+    font-size: 28px;
+}
+.loginform{
+    display: flex;
+    column-gap: 8px;
+}
+.userID{
+    margin-bottom:10px;
+    padding:3px;
+    width:250px;
+    height:30px;
+}
+#button{
+    width:100%;
+    padding:20px;
+    background-color: #586a8d;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.logo{
+    margin-top:0px;
+    margin-bottom:40px; 
+    font-size:50px;   
+}
+.find{
+    margin-top:20px;
+    font-size:small;    
+}
+#fin{
+    text-decoration-line: none;
+    color:inherit;
+}
+.img{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top:20px;
+}
+.img-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    overflow: hidden;
+}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+#content-wrap{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#main-title{
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+#content-unit{
+    margin-bottom: 35px;
+}
+h4{
+    /*color: rgb(69, 134, 205);*/
+    color: #778da9;
+    margin-bottom: 8px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.oTitle, .content, .content.addr, .oInfo, .oNo, .oCnt, .oTitleOther{
+	border-style: solid none;
+    border: 1px solid lightgray;
+    padding: 12px 0;
+    font-size: 15px;
+}
+.oTitle{
+    width: 14vw;
+    font-weight: 600;
+    background-color: rgb(234, 231, 231);
+}
+.content{
+    width: 36vw;
+}
+.form.two > .content.none{
+    width: 86vw;
+    height: 19.5px;
+}
+.form.two > .content.addr{
+    width: 84.5vw;
+    text-align: left;
+    padding-left: 20px;
+}
+.form.title{
+    font-weight: 600;
+    background-color: rgb(234, 231, 231);
+}
+.oInfo{
+    width: 45vw;
+}
+.oNo{
+    width: 14vw;
+}
+.oTitleOther{
+    width: 9vw;
+}
+.oCnt{
+    width: 5vw;
+}
+.oInfo.unit, .oNo.unit, .oCnt.unit, .oTitleOther.unit, .oTitleOther.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 0;
+}
+.oTitleOther.price{
+    color: rgb(237, 131, 2);
+    font-weight: 600;
+}
+.oInfo.unit{
+    display: flex;
+    column-gap: 10px;
+    justify-content: left;
+}
+img{
+    width: 95px;
+    height: 95px;
+    margin-left: 5px;
+    object-fit: cover;
+}
+.pContent{
+    text-align: left;
+}
+.pName{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.pOption{
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+.pSumPrice{
+    display: flex;
+    align-items: center;
+    justify-content: right;  
+    border: 1px solid lightgray;
+    font-size: 15px;
+    background-color: rgb(234, 231, 231);
+}
+.pSumPrice > p{
+    margin: 0;
+    margin-right: 15px;
+    padding: 8px 0;
+    font-weight: 600;
+}
+.btn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px 32px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}

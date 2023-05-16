@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spmuser">
+	
+	<select id="userselectOnenum" parameterType="UserDto" resultType="UserDto">
+		select *
+		from spmuser
+		where userNumber = #{userNumber}
+	</select>
+	
+	<select id="userselectOneid" parameterType="UserDto" resultType="UserDto">
+		select *
+		from spmuser
+		where userID = #{userID}
+	</select>
+	
+	<select id="userlogin" resultType="UserDto">
+		select * 
+		from spmuser
+		where userID = #{userID} and userPW = #{userPW}
+	</select>
+	
+	<insert id="userinsert" parameterType="UserDto">
+		insert into
+		spmuser 
+		values(null, #{userID}, #{userPW}, #{userName}, #{userPhone}, null, #{userEmail}, now(), default, 'basic', default)
+	</insert>
+	
+ 	<update id="userupdate" parameterType="UserDto">
+		update spmuser
+		set userPW = #{userPW}, userName = #{userName}, userAddrMain = #{userAddrMain}, userAddrSub = #{userAddrSub}, userEmail = #{userEmail} where userID = #{userID}
+	</update>
+	
+	<select id="useridfind" parameterType="UserDto" resultType="UserDto">
+        SELECT * FROM spmuser
+        WHERE userName=#{userName}
+        AND userEmail=#{userEmail}
+     </select>
+     
+     <select id="userpwfind" parameterType="UserDto" resultType="UserDto">
+        SELECT * FROM spmuser
+        WHERE userName=#{userName}
+        AND userID=#{userID}
+        AND userEmail=#{userEmail}
+     </select>
+</mapper>
