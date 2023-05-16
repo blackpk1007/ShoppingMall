@@ -6,17 +6,17 @@
     text-decoration: none;
 }
 #content-wrap{
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    width: 85vw;
+    width: 75vw;
     margin: 0 auto;
 }
 .top{
     margin: 100px 0 40px 0;
     padding: 15px 15px;
     border: 1px solid gray;
+}
+.top > h2{
+	font-weight: 700;
+	font-size: 34px;
 }
 .top > p{
     margin-bottom: 10px;

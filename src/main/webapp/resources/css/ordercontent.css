@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 #content-wrap{
-    width: 80vw;
+    width: 75vw;
     margin: 0 auto;
     margin-top: 100px;
 }

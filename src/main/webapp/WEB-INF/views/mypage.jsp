@@ -6,7 +6,7 @@
 <div id="content-wrap">
 	<!-- 마이페이지 메인 -->
 	<div class="top">
-		<h1>MY PAGE</h1>
+		<h2>MY PAGE</h2>
 		<p>마이페이지</p>
 		<div class="">
 			 저희 쇼핑몰을 이용해 주셔서 감사합니다.<br> 
