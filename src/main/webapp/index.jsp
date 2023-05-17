@@ -7,7 +7,7 @@
 <title>개판오분전</title>
 </head>
 <body>
-	<jsp:forward page="/main"/>
+	<jsp:forward page="/main"/> 
 </body>
 </html>
  
