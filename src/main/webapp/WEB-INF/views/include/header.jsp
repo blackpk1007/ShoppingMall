@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="../resources/css/header.css" type="text/css">
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script type="text/javascript">
-function test(ths){
-    var category = $(ths).text();
+function test(this){
+    var category = $(this).text();
     $('#kind').val(category);
     
     console.log(category);

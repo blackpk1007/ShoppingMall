@@ -71,8 +71,11 @@ select{
     font-size: 14px;
 }
 #content{
-    margin: 15px auto 20px auto;
+    box-sizing: border-box;
+    margin: 15px 0 20px 0;
+    padding: 12px;
     width: 100%;
+    font-size: 14px;
 }
 .btn-wrap{
     display: flex;

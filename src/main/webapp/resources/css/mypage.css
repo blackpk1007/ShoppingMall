@@ -28,6 +28,9 @@
     font-size: 14px;
     color: gray;
 }
+.top > div > strong{
+	color: gray;
+}
 .process{
     border: 1px solid lightgray;
 }

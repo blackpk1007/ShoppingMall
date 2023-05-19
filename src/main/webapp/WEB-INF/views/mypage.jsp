@@ -10,7 +10,7 @@
 		<p>마이페이지</p>
 		<div class="">
 			 저희 쇼핑몰을 이용해 주셔서 감사합니다.<br> 
-			 ${user.userName } 님은 [${user.userGrade }] 회원이십니다.<br> 
+			 <strong>${user.userName }</strong> 님은 <strong>[${user.userGrade }]</strong> 회원이십니다.<br> 
 			 (최근 6개월 동안 구매금액: 0원)
 		</div>
 	</div>
