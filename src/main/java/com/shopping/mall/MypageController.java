@@ -164,14 +164,14 @@ public class MypageController {
 	}
 	
 	@RequestMapping("/qnawrite")
-	public String write(QnaDto dto) {
+	public String write(QnaDto dto, HttpSession ssesion) {
 		
 		logger.info("[Mypage Controller] : QnaWrite");
 		
 		int res = mypageS.qnainsert(dto);
 		
 		if(res >0 ) {
-			return "redirect:/mypage/qnalist";
+			return "redirect:/mypage/qnalist?userid="+((UserDto)ssesion.getAttribute("login")).getUserID();
 		}else {
 			return "redirect:/mypage/qnawriteform";
 		}

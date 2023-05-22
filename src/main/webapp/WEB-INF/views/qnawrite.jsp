@@ -8,7 +8,7 @@
 	<h2 id="main-title">1대1 문의사항</h2>
 
 	<form action="/mypage/qnawrite">
-		<input type="hidden" name="qnawriterid" value="Test01">
+		<input type="hidden" name="qnawriterid" value="${login.userID }">
 		<div class="input-wrap" style="margin-top: 20px;">
 			제 &nbsp; 목 
 			<input type="text" placeholder="제목을 입력해주세요" name="qnatitle" class="input-tit">

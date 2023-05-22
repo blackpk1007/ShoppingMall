@@ -45,7 +45,7 @@
 
 	<!-- 마이페이지 상세 카테고리 -->
 	<div class="mypage-cate">
-      <a href="/mypage/mypageupdateform?userid=test1">
+      <a href="/mypage/mypageupdateform?userid=${login.userID }">
          <div>
             <p class="cate-title">👩</p>
             <strong>Profile</strong>
@@ -54,7 +54,7 @@
                고객님께서 주문하신 상품의<br> 주문내역을 확인하실 수 있습니다.
             </p>
          </div>
-      </a> <a href="/mypage/ordercontent?userid=test1">
+      </a> <a href="/mypage/ordercontent?userid=${login.userID }">
          <div>
             <p class="cate-title">🛒</p>
             <strong>Profile</strong>
@@ -63,7 +63,7 @@
                고객님께서 주문하신 상품의<br> 주문내역을 확인하실 수 있습니다.
             </p>
          </div>
-      </a> <a href="/mypage/mypagecart?userid=test1">
+      </a> <a href="/mypage/mypagecart?userid=${login.userID }">
          <div>
             <p class="cate-title">🎁</p>
             <strong>Profile</strong>
@@ -72,7 +72,7 @@
                고객님께서 주문하신 상품의<br> 주문내역을 확인하실 수 있습니다.
             </p>
          </div>
-      </a> <a href="/mypage/qnalist?userid=test1">
+      </a> <a href="/mypage/qnalist?userid=${login.userID }">
          <div>
             <p class="cate-title">📝</p>
             <strong>Profile</strong>
